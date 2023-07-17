@@ -3,7 +3,7 @@ import { useQuiz } from "../context/QuizContext";
 function Progress() {
   const {
     index,
-    numQuestions,
+    numQuestions = 15,
     points,
     maxPossiblePoints: totalPoints,
     answer,
